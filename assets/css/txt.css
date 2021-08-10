@@ -1,13 +1,13 @@
 
 /*======================================================================
-  3. Typography
+  1. Typography
 ========================================================================*/
 img {
     max-width: 100%;
 }
 
 /*======================================================================
-  13. Product Grid
+  2. Product Grid
 ========================================================================*/
 
 .slick-prev,
@@ -42,7 +42,7 @@ img {
 }
 
 /*======================================================================
-  21. Product Detail
+  3. Product Detail
 ========================================================================*/
 .product-single-1 .product-details-img .product-zoom-right {
     width: 100%;
@@ -248,11 +248,8 @@ img {
 
 .product-single__price {
      display:inline-block; 
-     /* margin-right:10px;  */
      color:#555; 
      font-size:1.15385em; 
-     /* font-weight:400;  */
-     /* margin-bottom:15px; */
      }
 
 
@@ -266,4 +263,44 @@ img {
     filter: blur(5px);
     transition: filter 400ms, -webkit-filter 400ms;
     -webkit-transition: filter 400ms, -webkit-filter 400ms;
+}
+
+
+@media screen and (max-width:992px) {
+    #fixed-image{
+    right: 81px !important;
+    }
+    #fixed-image.sticky {
+        position:fixed;
+        top:5px;
+    }
+}
+@media screen and (max-width:1500px) {
+    #fixed-image.sticky {
+        position:fixed;
+        top:5px;
+    }
+    #zoomContainer.sticky{
+        width: 460px;
+    }
+}
+@media screen and (max-width:768px) {
+    h1.product-single__title, .product-single__title.h1 { 
+        text-align:center !important;
+       }
+	
+
+    .zoompro-span img{
+        width:212px !important;
+    }
+#fixed-image{
+    right: 0px !important;
+    
+}
+
+#fixed-image.sticky
+{
+    position: static;
+}
+
 }

@@ -102,43 +102,13 @@ body {
 }
 
 
-/* .site-header__search .search-trigger:hover {
-  color: #30bdbd;
-}
-
-.lines1
-{
-  color: black;
-}
-
-.lines
-{
- background-color: red;
-} */
-/* .top-header_middle-text .span{
-  font-weight: 700 !important;
-} */
-
-/* .product-template__container .product-single__meta {
-   margin-bottom:20px; 
-  margin-top: 60px;
-  margin-right: 0%;
-  float:right;
-  
-} */
 
      h1.product-single__title, .product-single__title.h1 { 
        color:#000; 
        font-size:23px; 
        margin-bottom:10px;
        font-family: Cairo, sans-serif !important;
-       /* font-weight: 800; */
       }
-
-      /* product-price__price { color:#000000; font-weight:600; display:inline-block; } */
-
-      /* .product-single__price .product-price__price { font-size:1.46154em; padding-left:3px; } */
-
 .product-price__price {
    color:#000000; 
    font-weight:700; 
@@ -314,27 +284,6 @@ body {
   font-family: Cairo, sans-serif;
   color:#000; 
  }
-#fixed-image.sticky {
-  position:fixed;
-  top:5px;
-}
-
-/* .clear {
-  clear:both;
-}
-
-
-#fixed-image
-{
-  margin:0;
-  padding:0;
-}
-*/
-/* #code-feature.sticky{
-  position:absolute;
-  left: 0;
-  z-index: 3;
-} */
 
 .btn-rating { 
   width:20%; 
@@ -416,6 +365,9 @@ body {
   padding: 1em;
   background-color: white;
 }
+
+
+  
 /*---------------------------------------------------------------------------------------------*/
 
 .stickyNav .site-header__search { display:none; }
@@ -428,7 +380,6 @@ body {
 .search .search__button { border:0; font-size:18px; }
 .search .go-btn { position:absolute; left:0; top:10px; }
 .search .close-btn { position:absolute; right:0; top:1px; font-size:18px; line-height:normal; display:block; border:0; padding:5px; cursor:pointer; }
-/* .search .search__input { width:100%; border:0; font-size:18px; padding:0 40px; } */
 .site-header__cart .icon { font-size:22px; text-decoration:none; }
 
 input, button, select, textarea { background: transparent; border:1px solid #d7d7d7; transition:all 0.4s ease-out 0s; -webkit-transition:all 0.4s ease-out 0s; color:#424242; }
@@ -497,7 +448,7 @@ input:focus, input:active, button:focus, button:active, select:focus, select:act
 .cart .qtyField a .icon { line-height:33px; font-size:10px; }
 
 /*======================================================================
-  7. Input Placeholder
+ Input Placeholder
 ========================================================================*/
 input:-moz-placeholder, textarea:-moz-placeholder { opacity:1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { opacity:1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
